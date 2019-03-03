@@ -47,7 +47,7 @@ class Sidebar extends React.Component {
             href="https://comba.usc.edu.co"
             className="simple-text logo-normal"
           >
-            COMBA X
+            COMBA Dashboard
           </a>
         </div>
         <div className="sidebar-wrapper" ref="sidebar">
