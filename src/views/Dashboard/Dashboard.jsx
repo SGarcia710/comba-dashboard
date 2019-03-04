@@ -11,16 +11,22 @@ class Dashboard extends React.Component {
       
         <h1 className="display-4">Bienvenido Sebastian</h1>
         <ContentCategory 
-          title="Proyectos"
-        />
-        <ContentCategory 
           title="Publicaciones"
         />
         <ContentCategory 
           title="Eventos"
         />
         <ContentCategory 
-          title="Softwares"
+          title="Libros"
+        />
+        <ContentCategory 
+          title="Proyectos"
+        />
+        <ContentCategory 
+          title="Software"
+        />
+        <ContentCategory 
+          title="Movilidad"
         />
       </div>
     );

@@ -49,6 +49,7 @@ class RegularTables extends React.Component {
                               );
                             return <td key={key}>{prop}</td>;
                           })}
+                          <td className="text-right">botones</td>
                         </tr>
                       );
                     })}

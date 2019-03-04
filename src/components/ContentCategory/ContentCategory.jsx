@@ -30,8 +30,8 @@ class ContentCategory extends Component {
                   </div>
                   <div className="col-2  mb-0" >
                     <div className="text-right mt-2 mb-0">
-                      <i class="fas fa-print fa-2x mr-2 text-warning" />
                       <i class="fas fa-plus fa-2x mr-2 text-danger"/>
+                      <i class="fas fa-print fa-2x mr-2 text-warning" />
                       {
                         this.state.collapse ?
                            <i class="fas fa-chevron-up fa-2x  text-secondary"  onClick={this.toggle}/>

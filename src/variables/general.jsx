@@ -2,32 +2,34 @@
 // // // table head data and table body data for Tables view
 // #############################
 
-const thead = ["Name", "Country", "City", "Salary"];
+const thead = ["No.", "Nombre", "Apellido", "Vinculacion", "Email", "acciones"];
 const tbody = [
   {
     className: "table-success",
-    data: ["Dakota Rice", "Niger", "Oud-Turnhout", "$36,738"]
+    data: ["1", "Juan", "Garcia", "DE", "juan.garcia01@usc.edu.co"]
   },
   {
     className: "",
-    data: ["Minerva Hooper", "Curaçao", "Sinaai-Waas", "$23,789"]
+    data: ["2", "Sebastian", "Ospina", "DE", "sebastian.0spina01@usc.edu.co"]
   },
   {
     className: "table-info",
-    data: ["Sage Rodriguez", "Netherlands", "Baileux", "$56,142"]
+    data: ["3", "Claudia", "Zuniga", "TC", "claudia.zuniga@usc.edu.co"]
   },
   {
     className: "",
-    data: ["Philip Chaney", "Korea, South", "Overland Park", "$38,735"]
+    data: ["4", "Carolina", "Narvaez", "DE", "carolina.Narvaez@usc.edu.co"]
   },
   {
     className: "table-danger",
-    data: ["Doris Greene", "Malawi", "Feldkirchen in Kärnten", "$63,542"]
+    data: ["5", "Fulano", "Detal", "TC", "fulano.detal@usc.edu.co"]
   },
-  { className: "", data: ["Mason Porter", "Chile", "Gloucester", "$78,615"] },
+  { className: "", 
+    data: ["6", "Pepito", "Perez", "DE", "pepito.perez@usc.edu.co"] 
+  },
   {
     className: "table-warning",
-    data: ["Jon Porter", "Portugal", "Gloucester", "$98,615"]
+    data: ["7", "Juaquin", "Loaiza", "DE", "Juaquin.Loaiza@usc.edu.co"]
   }
 ];
 

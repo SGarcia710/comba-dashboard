@@ -20,6 +20,12 @@ var dashRoutes = [
     component: UserPage
   },
   {
+    path: "/tables",
+    name: "Lista de Usuarios",
+    icon: "nc-icon nc-single-02",
+    component: TableList
+  },
+  {
     path: "/icons",
     name: "Formatos",
     icon: "nc-icon nc-tile-56",
@@ -32,12 +38,7 @@ var dashRoutes = [
   //   icon: "nc-icon nc-single-02",
   //   component: Notifications
   // },
-  {
-    path: "/tables",
-    name: "Lista de Usuarios",
-    icon: "nc-icon nc-single-02",
-    component: TableList
-  },
+  
   // {
   //   path: "/typography",
   //   name: "Typography",
